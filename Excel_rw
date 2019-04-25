@@ -1,0 +1,13 @@
+import xlrd
+import xlwt
+import os
+
+class Excel_rw:
+    def __init__(self, row, colum**kwargs):
+        self.file_dir = kwargs.get("dir", "./")
+        self.suffix = kwargs.get("suffix", ".xlsx")
+        self.rd_file_maxrow =
+
+
+# a = Excel_rw(dir = "123")
+# print(a.file_dir)
